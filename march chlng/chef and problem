@@ -1,0 +1,25 @@
+n,m,k = input().split()
+a = input().split()
+n = int(n)
+m = int(m)
+k = int(k)
+l1 = len(a)
+for i in range(l1):
+    a[i] = int(a[i])
+while k>0:
+    l,r = input().split()
+    l = int(l)
+    r = int(r)
+    maximum = 0
+    for i in range(l-1,r,1):
+        j = l-1
+        c = 0
+        while(j<r):
+            if(a[i] == a[j]):
+                c = j
+            j += 1
+        d = c - i
+        if (d > maximum):
+            maximum = d
+    print(maximum)
+    k -= 1

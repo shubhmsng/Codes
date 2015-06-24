@@ -1,0 +1,34 @@
+# your code goes here
+t = int(input())
+while t != 0:
+	type = int(input())
+	s = input()
+	nb = s.count('B')
+	ng = s.count('G')
+	c = 0
+	if (nb == ng) or (nb == ng-1) or (ng == nb-1) :
+		if nb == ng:
+			if s[0] == 'B' :
+				for i in range(0, len(s), 2):
+					if s[i] != 'B':
+						c += 1
+			if s[0] == 'G':
+				for i in range (0, len(s), 2):
+					if s[i] != 'G':
+						c += 1
+		elif nb == ng -1:
+			for i in range(0, len(s), 2):
+				if s[i] != 'G':
+					c += 1
+		elif ng == nb -1:
+			for i in range(0, len(s), 2):
+				if s[i] != 'B':
+					c += 1
+		
+		print(c)
+				
+	else:
+		print('-1')
+	
+	t -= 1
+    

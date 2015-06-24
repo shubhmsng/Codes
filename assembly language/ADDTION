@@ -1,0 +1,18 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+;code
+start: nop
+LXI H, 7000H;
+MVI M, 10H;
+MOV A, M;
+INX H;
+MVI M, 20H;
+MOV B,M;
+ADD B;
+STA 7002H;
+HLT;

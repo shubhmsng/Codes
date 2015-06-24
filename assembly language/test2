@@ -1,0 +1,19 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+MVI A,10H;
+LXI H,0110H;
+MVI M,5H;
+SHLD 1H;
+STA 0H;
+LHLD 0001H;
+MVI M,20H;
+ADD M;
+hlt

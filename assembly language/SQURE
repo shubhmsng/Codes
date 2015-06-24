@@ -1,0 +1,34 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+LXI H,1001H;
+MVI M, 1H;
+INX H;
+MVI M, 4H;
+INX H;
+MVI M, 9H;
+INX H;
+MVI M, 16H;
+INX H;
+MVI M, 25H;
+INX H;
+MVI M, 36H;
+INX H;
+MVI M, 49H;
+INX H;
+MVI M, 64H;
+INX H;
+MVI M, 81H;
+
+MVI L, 07H;
+
+MOV A, M;
+
+hlt

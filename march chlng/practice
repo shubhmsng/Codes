@@ -1,0 +1,12 @@
+import random
+
+def power(i ,j):
+    return i**j
+
+
+i,j = input().split()
+
+i = int(i)
+j = int(j)
+p = power(i,j)
+print(p)

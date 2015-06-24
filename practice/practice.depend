@@ -1,0 +1,240 @@
+# depslib dependency file v1.0
+1385316878 source:c:\users\shubham singh\desktop\practice\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+983682186 c:\tdm-gcc-32\include\gl\glut.h
+	<windows.h>
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1301111162 c:\tdm-gcc-32\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111163 c:\tdm-gcc-32\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\tdm-gcc-32\include\winuser.h
+
+1301111163 c:\tdm-gcc-32\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\tdm-gcc-32\include\winerror.h
+
+1341006777 c:\tdm-gcc-32\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006771 c:\tdm-gcc-32\include\_mingw.h
+
+1301111149 c:\tdm-gcc-32\include\basetsd.h
+
+1301111157 c:\tdm-gcc-32\include\pshpack4.h
+
+1301111157 c:\tdm-gcc-32\include\poppack.h
+
+1301111164 c:\tdm-gcc-32\include\winver.h
+
+1301111149 c:\tdm-gcc-32\include\dde.h
+
+1301111150 c:\tdm-gcc-32\include\dlgs.h
+
+1301111149 c:\tdm-gcc-32\include\commctrl.h
+	<prsht.h>
+
+1301111157 c:\tdm-gcc-32\include\prsht.h
+
+1301111162 c:\tdm-gcc-32\include\windef.h
+	<winnt.h>
+
+1301111162 c:\tdm-gcc-32\include\wincon.h
+
+1301111161 c:\tdm-gcc-32\include\winbase.h
+
+1301111162 c:\tdm-gcc-32\include\wingdi.h
+
+1301111163 c:\tdm-gcc-32\include\winnls.h
+
+1301111163 c:\tdm-gcc-32\include\winnetwk.h
+
+1301111163 c:\tdm-gcc-32\include\winreg.h
+
+1301111164 c:\tdm-gcc-32\include\winsvc.h
+
+1301111149 c:\tdm-gcc-32\include\cderr.h
+
+1301111149 c:\tdm-gcc-32\include\ddeml.h
+
+1301111151 c:\tdm-gcc-32\include\imm.h
+
+1301111154 c:\tdm-gcc-32\include\lzexpand.h
+
+1301111154 c:\tdm-gcc-32\include\mmsystem.h
+
+1301111155 c:\tdm-gcc-32\include\nb30.h
+
+1301111158 c:\tdm-gcc-32\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\tdm-gcc-32\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111149 c:\tdm-gcc-32\include\basetyps.h
+
+1301111159 c:\tdm-gcc-32\include\rpcdcep.h
+
+1301111159 c:\tdm-gcc-32\include\rpcnsi.h
+
+1301111159 c:\tdm-gcc-32\include\rpcnterr.h
+
+1341006773 c:\tdm-gcc-32\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\tdm-gcc-32\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111157 c:\tdm-gcc-32\include\pshpack2.h
+
+1301111163 c:\tdm-gcc-32\include\winperf.h
+
+1301111149 c:\tdm-gcc-32\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111161 c:\tdm-gcc-32\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\tdm-gcc-32\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\tdm-gcc-32\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111159 c:\tdm-gcc-32\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111159 c:\tdm-gcc-32\include\rpcnsip.h
+
+1301111163 c:\tdm-gcc-32\include\winspool.h
+
+1301111163 c:\tdm-gcc-32\include\winsock2.h
+	<windows.h>
+
+1301111163 c:\tdm-gcc-32\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111155 c:\tdm-gcc-32\include\mswsock.h
+
+1301111156 c:\tdm-gcc-32\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111155 c:\tdm-gcc-32\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1341006777 c:\tdm-gcc-32\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111156 c:\tdm-gcc-32\include\objidl.h
+	<objfwd.h>
+
+1301111149 c:\tdm-gcc-32\include\cguid.h
+
+1301111156 c:\tdm-gcc-32\include\olectlid.h
+
+1301111156 c:\tdm-gcc-32\include\oleauto.h
+	<oaidl.h>
+
+1301111155 c:\tdm-gcc-32\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\tdm-gcc-32\include\oleidl.h
+	<objfwd.h>
+
+1301111164 c:\tdm-gcc-32\include\gl\gl.h
+
+1301111165 c:\tdm-gcc-32\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1426418304 source:c:\users\shubham singh\desktop\practice\main3.c
+	<stdio.h>
+	<GL/glut.h>
+
+1341006776 c:\tdm-gcc-32\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	<stdarg.h>
+	<sys/types.h>
+
+1341006780 c:\tdm-gcc-32\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1426418363 source:c:\users\shubham singh\desktop\practice\main3.cpp
+	<iostream>
+	<GL/glut.h>
+

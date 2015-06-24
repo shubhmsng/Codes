@@ -1,0 +1,22 @@
+n = input()
+n = n.split()
+q = int(n[1])
+a = input().split()
+b = input().split()
+while(q > 0):
+    t = input().split()
+    l = int(t[0])
+    r = int(t[1])
+    c = a[l-1:r]
+    d = b[l-1:r]
+    c.sort()
+    d.sort()
+    for i in range(0,r-l+1):
+        c[i] = int(c[i])
+        d[i] = int(d[i])
+    s = 0
+    for i in range(0,r-l+1):
+        s += c[i] * d[i]
+    print(s)
+    q -= 1
+        

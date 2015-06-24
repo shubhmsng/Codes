@@ -1,0 +1,14 @@
+t = int(input())
+while(t>0):
+
+    n = int(input())
+    
+    f = pow(34,n)+ (30*n) + 32
+    c = int(f%11)
+    p = int(f/11)
+    q = int((p+1)*11-f)
+    
+    if(c > q):
+        c = q;
+    print(q)
+    t -= 1

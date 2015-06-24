@@ -1,0 +1,30 @@
+from math import *
+
+def fact(n):
+    if (n==1):
+        return 1;
+    else:
+        return n*fact(n-1)
+
+
+t = int(input())
+while(t >= 0):
+    a,c,x,z = input().split()
+    a = int(a)
+    c = int(c)
+    x = int(x)
+    z = int(z)
+
+    l = int ((int(sqrt((1+2*(c-a)))) - 1)/2)
+    r = int ((int(sqrt((1+4*(z-x)))) - 1)/4)
+
+    s = 0;
+    
+    for i in range(l,r+1):
+        
+        s = s + int((fact(i+2)/fact(i)))
+        
+    print(s)
+
+
+    t -= 1

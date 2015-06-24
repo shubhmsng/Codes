@@ -1,0 +1,1 @@
+main(c){c=0;char s;while((s=getchar())!=10){putchar(s);c+=(s=='K'||s=='G'||s=='L'||s=='F')?1:0;};return!printf("%d",c);}

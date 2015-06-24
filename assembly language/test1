@@ -1,0 +1,15 @@
+
+;<Program title>
+
+jmp start
+
+;data
+
+
+;code
+start: nop
+LDA 2200H
+MOV C,A;
+MVI B,00;
+LXI H,2201H;
+hlt

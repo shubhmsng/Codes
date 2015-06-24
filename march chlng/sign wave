@@ -1,0 +1,18 @@
+i = int(input());
+
+while (i != 0):
+    s,c,k = input().split()
+    s = int(s)
+    k = int(k)
+    c = int(c)
+    if (k > s and k > c):
+    	print ('0');
+    elif (c==0 and k <= s):
+    	print (2**(s - k + 1) + 1);
+    elif (s == 0 and k!=1 and c >0):
+        print ('0')
+    elif (s==0 and k == 1 and c >0):
+        print( 2**c)
+        
+    
+    i -= 1
