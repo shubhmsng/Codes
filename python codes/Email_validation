@@ -47,5 +47,5 @@ for i in range(t):
         if i and j and k:
             l = l+[e]
 
-l.sort()        
+l.sort()           #maintain list in lexicographic order        
 print(l)
