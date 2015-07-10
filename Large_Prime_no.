@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void) {
+	// your code goes here
+	long long unsigned n,i;
+	int t;
+	scanf("%d",&t);
+	while(t--)
+	{	int flag = 0;
+		scanf("%llu",&n);
+		for(i=2; i*i <= n; i++)
+		{
+			if(n%i == 0)
+			{
+				flag += 1;
+				printf("no\n");
+				break;
+			}
+		}
+		if(flag == 0)
+		printf("yes\n");
+	}
+	
+	return 0;
+}
