@@ -1,0 +1,51 @@
+import re                          #import regular expression
+
+def username(u):
+    p = r'[^\-_0-9a-zA-Z]' # p = 1 if regular expression contains symbol other 0-9, a-z, A-Z or -, _   
+
+    if re.search(p,u):     # search regular expression that not contains symbols 0-9,a-z, A-Z, -, _ 
+        return False
+    else:
+        return True
+def web(w):
+    p = r'[^\0-9a-zA-Z]'  # p = 1 if regular expression contains symbol other 0-9, a-z, A-Z
+    if re.search(p,w):    # search regular expression that not contains symbols 0-9,a-z, A-Z
+        return False
+    else:
+        return True
+def ext(e):
+    p = r'[^\A-Za-z]'       # p = 1 if regular expression contains symbol other a-z, A-Z
+    if  (re.search(p,e)):   # search regular expression that not contains symbols 0-9,a-z, A-Z
+    	return False
+    elif len(e)>3:
+    	return False
+    else:
+    	return True
+       
+
+t = int(input())
+l = []
+for i in range(t):
+    email = input()
+    
+    g = email.count('@')
+    h = email.count('.')
+    
+    if g == 1 and h==1 and email[0] !='@' and email[0] !='.' :
+        e = email
+        email = email.split('@')
+        user_name = email[0]
+        web_ext = email[1].split('.')
+        web_ext.append('#')
+        #print (web_ext)
+        web1 = web_ext[0]
+        ext1 = web_ext[1]
+        i = username(user_name)
+        j = web(str(web1))
+        k = ext(str(ext1))
+        #print (i, j, k)
+        if i and j and k:
+            l = l+[e]
+
+l.sort()        
+print(l)
